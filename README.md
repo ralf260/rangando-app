@@ -1,27 +1,35 @@
-# RangandoApp
+# Rangando-App - Angular Application
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.1.
+Este respositório contém a implementação da aplicação feita no curso de Angular 4. O bundle para começar o seu projeto está [aqui].
 
-## Development server
+## 1. Passos para começar
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### Instalando as Dependências
 
-## Code scaffolding
+`npm install`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Inicializando o Servidor
 
-## Build
+`ng serve` ou `npm start`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+## 2. Iniciando o Backend
 
-## Running unit tests
+### Instalando o json-server
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+`npm install -g json-server`
 
-## Running end-to-end tests
+### Iniciando o serviço (raiz da aplicação)
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+`json-server db.json`
 
-## Further help
+## Goodies
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Expressões regulares usadas na validação de formulários
+
+### Email Regex
+
+`/^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i`
+
+### Number Regex
+
+`/^[0-9]*$/`
